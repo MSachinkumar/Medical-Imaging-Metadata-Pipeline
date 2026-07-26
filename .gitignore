@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+
+# Outputs
+logs/
+output/
+
+# Ignore large DICOM dataset
+data/raw_dicom/
+
+# IDE
+.vscode/
+.idea/
