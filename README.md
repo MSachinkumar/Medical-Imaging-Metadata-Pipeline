@@ -69,7 +69,6 @@ The metadata is stored in a normalized PostgreSQL schema consisting of:
 - Series
 - Images
 
-![Database Schema](screenshots/database_schema.png)
 
 ## SQL Analytics
 
