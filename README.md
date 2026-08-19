@@ -1,10 +1,10 @@
 # Medical Imaging Metadata Pipeline
 
-An end-to-end ETL pipeline built using Python, PostgreSQL, and AWS S3 to extract, clean, store, and analyze metadata from DICOM CT images.
+An end-to-end ETL pipeline built using Python, PostgreSQL and AWS S3 to extract, clean, store and analyze metadata from DICOM CT images.
 
 ## Project Overview
 
-This project uses the LIDC-IDRI dataset from The Cancer Imaging Archive (TCIA). The pipeline extracts metadata from DICOM files using Python, cleans and validates the extracted data, stores it in a normalized PostgreSQL database, and uploads the cleaned dataset to Amazon S3.
+This project uses the LIDC-IDRI dataset from The Cancer Imaging Archive (TCIA). The pipeline extracts metadata from DICOM files using Python, cleans and validates the extracted data, stores it in a normalized PostgreSQL database and uploads the cleaned dataset to Amazon S3.
 
 The project also includes SQL queries to analyze the stored metadata.
 
@@ -154,5 +154,5 @@ python scripts/upload_s3.py
 
 **Sachin Kumar**
 
-- GitHub: https://github.com/Sachinkumar-23D242
+- GitHub: https://github.com/MSachinkumar
 - LinkedIn: https://www.linkedin.com/in/msachinkumar/
