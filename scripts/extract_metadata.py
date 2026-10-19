@@ -80,10 +80,6 @@ for dicom_file in tqdm(dicom_files):
 # Convert to DataFrame
 # -------------------------------
 
-# -------------------------------
-# Convert to DataFrame
-# -------------------------------
-
 df = pd.DataFrame(metadata)
 
 # Remove duplicate DICOM instances
